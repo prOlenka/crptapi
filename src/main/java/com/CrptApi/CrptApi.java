@@ -35,7 +35,7 @@ public class CrptApi {
 	}
 
 	public static void main(String[] args) throws InterruptedException {
-		CrptApi api = new CrptApi(TimeUnit.SECONDS, 1, "https://ismp.crpt.ru/api/v3/lk/documents/create");
+		CrptApi api = new CrptApi(TimeUnit.HOURS, 1, "https://ismp.crpt.ru/api/v3/lk/documents/create");
 		final Logger logger = LogManager.getLogger(CrptApi.class);
 		String json = "";
 		try {
